@@ -82,7 +82,13 @@ body {
 .header_image > img {
     display: flex;
 }
-
+.card > img {
+    display: flex;
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+    gap: 10px;
+}
 .header_logo {
     display: flex;
     gap: 10px;
@@ -126,6 +132,7 @@ li > a {
     border-radius: 12px;
     padding: 12px;
     margin: 12px;
+    align-items: center;
 }
 
 .card_list {
