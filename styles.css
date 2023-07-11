@@ -25,7 +25,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -76,6 +76,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     min-height: 40px;
+    padding-right: 30px;
 }
 
 .header_image > img {
@@ -144,5 +145,6 @@ button {
     display: flex;
     font-size: 14px;
     max-width: fit-content;
+    margin-top: 10px;
 }
 
