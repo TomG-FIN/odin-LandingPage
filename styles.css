@@ -20,20 +20,21 @@ body {
 
 .info_container {
     display: flex;
-    flex: 1;
     background-color: #5a8dd6;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
 .card_container {
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #24b65c;
+    /* background-color: #24b65c; */
+    background-color: #5a8dd6;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
@@ -45,8 +46,7 @@ body {
     display: flex;
     flex: 1;
     background-color: #d6735a;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px 80px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -55,9 +55,8 @@ body {
 .about_container {
     display: flex;
     flex: 1;
-    background-color: #36d9ee;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: #594eec8f;
+    padding: 0px 0 16px 0;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -81,14 +80,36 @@ body {
 
 .header_image > img {
     display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0px 0px 0px 16px;
+
 }
 .card > img {
     display: flex;
+    object-fit: cover;
     height: 90px;
     width: 90px;
     margin-right: 10px;
     gap: 10px;
+    border-radius: 15%;
 }
+.info_container_startsplit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 100%;
+    padding: 0 0 0 30px;
+}
+
+.info_container_endsplit > img {
+    display: flex;
+    height: 90px;
+    width: 90px;
+    padding: 0 30px 0 0;
+}
+
 .header_logo {
     display: flex;
     gap: 10px;
@@ -133,6 +154,8 @@ li > a {
     padding: 12px;
     margin: 12px;
     align-items: center;
+    width: 230px;
+    height: 100px;
 }
 
 .card_list {
@@ -155,3 +178,8 @@ button {
     margin-top: 10px;
 }
 
+.quote > h1 {
+    font-size: 22px;
+    font-style: italic;
+
+}
