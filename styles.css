@@ -32,6 +32,7 @@ body {
 .card_container {
     display: flex;
     flex: 1;
+    flex-direction: column;
     background-color: #24b65c;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -61,6 +62,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+ .about_content { /* DIV UNDER THE ABOUT HEADER */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -119,3 +126,23 @@ li > a {
     padding: 12px;
     margin: 12px;
 }
+
+.card_list {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+button {
+    background-color: #3882F6; /* Green */
+    border: none;
+    color: white;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    max-width: fit-content;
+}
+
